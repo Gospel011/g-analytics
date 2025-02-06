@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #000300;
+  --color-dark-green: #00df9a;
+}
+
+body {
+  background-color: #000300;
+}
+
+* {
+  @apply focus:ring-dark-green focus:ring-2 focus:ring-offset-2 focus:outline-none;
+}
